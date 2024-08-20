@@ -3,6 +3,9 @@
 $number = 12;
 // $number2 = $number +13;
 $number +=13;
+$number-=5;
+$number*=2;
+$number/=2;
 
 $plus = $number + 20;
 $minus = $number - 2;
