@@ -2,7 +2,7 @@
 
 $number = 12;
 // $number2 = $number +13;
-// $number += 13;
+$number +=13;
 
 $plus = $number + 20;
 $minus = $number - 2;
