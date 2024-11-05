@@ -15,3 +15,13 @@ if ($year % 4 == 0 && $year % 100 == 0 && $year % 400 == 0){
 } else {
     echo "The year {$year} is not a leap year";
 }
+
+echo "\n";
+$year2 = 2006;
+if ($year2 % 4  == 0 && ($year2 % 100 !=0 || $year2 % 400 == 0)){
+    echo  "{$year2} is a leap year.";
+} else {
+    echo "{$year2} is not a leap year.";
+}
+
+//year = 2003
