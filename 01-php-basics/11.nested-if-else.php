@@ -1,9 +1,9 @@
 <?php
 
-$condition1 = 1+1 == 2;
-$condition2 = 2+2 == 4;
-$condition3 = 3+3 == 6;
-$condition4 = 4+1 == 5;
+$condition1 = true;
+$condition2 = true;
+$condition3 = true;
+$condition4 = true;
 
 if($condition1){
 echo "Okay! Condition 1 \n";
