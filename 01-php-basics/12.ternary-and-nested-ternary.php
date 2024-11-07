@@ -2,7 +2,7 @@
 
 //Ternary Operator
 
-$n = 13;
+$n = 10;
 
 if(12 == $n){
     echo "Twelve";
@@ -15,16 +15,34 @@ if(12 == $n){
 echo "\n";
 
 // $numberInWord = (12 == $n) ? "Twelve" : "Just Another NUmber";
-$numberInWord = ((12 == $n) ? "Twelve") : ((10 == $n) ? "Ten") : ((8 == $n) ? : "Number is not listed");
+$n33 = 9;
+$numInWord = ($n33 == 12) ? "Twelve" : 
+                (($n33 == 10) ? "Ten" : 
+                (($n33 == 9) ? "Nine" : 
+                (($n33 == 8) ? "Eight" : 
+                (($n33 == 7) ? "Seven" : 
+                (($n33 == 6) ? "Six" : 
+                (($n33 == 5) ? "Five" : "Number is not listed"))))));
+
+echo "<h2>" . $numInWord . "</h2>";
+
+echo "\n";
+$n = 3;
+$numberInWord = ($n == 12) ? "TWELVE" : 
+                (($n == 10) ? "TEN" : 
+                (($n == 9) ? "NINE" : 
+                (($n == 8) ? "EIGHT" : "NUMBER NOT LISTED")));
+
 echo $numberInWord;
+
 
 echo "\n";
 
-if($n % 2 == 0){
-    echo "Even Number";
-} else{
-    echo "Odd Number";
-}
+// if($n % 2 == 0){
+//     echo "Even Number";
+// } else{
+//     echo "Odd Number";
+// }
 
 echo "\n";
 
