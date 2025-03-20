@@ -1,11 +1,14 @@
 <?php
 
 for ($i = 1; $i <= 10; $i++) {
-    echo $i . PHP_EOL;
+    echo $i;
+    echo PHP_EOL;
+    for ($j = 0; $j < $i; $j++) {
+        echo "*";
+    }
+    echo PHP_EOL; // Add a line break after the stars
 }
 
-// for ($i = 10; $i >= 1; $i--) {
-//     echo $i . PHP_EOL;
-// }
+
 
 
